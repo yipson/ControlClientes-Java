@@ -21,9 +21,9 @@
                         </thead>
                         <tbody>
                             <!<!-- Iteramos cada elemento de la lista -->
-                            <c:forEach var="cliente" items="${clientes}">
+                            <c:forEach var="cliente" items="${clientes}" varStatus="status">
                                 <tr>
-                                    <td>${cliente.idCliente}</td>
+                                    <td>${Status.count}</td>
                                     <td>${cliente.nombre}</td>
                                     <td> <fmt:formatNumber value="${cliente.saldo}" type="currency" /> </td>
                                     <td>
