@@ -9,5 +9,6 @@ Tecnologias y herramientas:
 La base de datos es el archivo llamado "control_clientes_cliente.sql", que esta en este mismo repositorio.
 
 
-MVC: Model View Controler
-CRUD: Create, Read, Update, Delete. Principales procesos en una base de datos
+MVC: Model View Controler.
+
+CRUD: Create, Read, Update, Delete. Principales procesos en una base de datos.
