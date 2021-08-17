@@ -23,8 +23,8 @@
                             <!<!-- Iteramos cada elemento de la lista -->
                             <c:forEach var="cliente" items="${clientes}" varStatus="status">
                                 <tr>
-                                    <td>${Status.count}</td>
-                                    <td>${cliente.nombre}</td>
+                                    <td>${status.count}</td>
+                                    <td>${cliente.nombre} ${cliente.apellido}</td>
                                     <td> <fmt:formatNumber value="${cliente.saldo}" type="currency" /> </td>
                                     <td>
                                         <a href="${pageContext.request.contextPath}/ServletControlador?accion=editar&idCliente=${cliente.idCliente}" 
